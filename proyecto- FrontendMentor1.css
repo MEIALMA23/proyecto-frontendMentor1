@@ -1,0 +1,118 @@
+*{
+    padding:0 ;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+   background-color: hsl(30, 38%, 92%);
+   height: 100vb;
+   width: 220vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center; 
+}
+
+.box-white{
+    background-color: hsl(0, 0%, 100%)
+    height 700px;
+    width: 1000px;
+    border-radius: 20px;
+    display: flex;
+}
+ 
+
+ .box-imagen{
+    height: 700px;
+    width: 500px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+} 
+
+ #imagen-principal{
+    height: 700px;
+    width: 500px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    /*object-fit: cover; */
+} 
+
+
+ .box-text{
+    background-color: hsl(0, 0%, 100%);
+    padding: 50px;
+    height: 700px;
+    width: 500px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+} 
+
+h2{
+    margin-top: 5px; 
+    color:hsl(228, 12%, 48%) ;
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0.2cm;
+}
+
+h1{
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    font-size: 60px;
+    font-style: normal;
+    line-height: 0.9;
+    
+}
+
+p{
+    color:hsl(228, 12%, 48%) ;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.descuento{
+    color:hsl(158, 36%, 37%);
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    font-size: 50px;
+} 
+
+.precio-viejo{
+    color:hsl(228, 12%, 48%);
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    text-decoration: line-through;
+  
+    
+}
+
+.img-cart{
+  position:absolute;
+  bottom: 13%;
+  left: 1060px;
+}
+ 
+
+.boton-add{
+    color:hsl(0, 0%, 100%);
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    height: 7vb;
+    width: 50vh;
+    margin-top: 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
